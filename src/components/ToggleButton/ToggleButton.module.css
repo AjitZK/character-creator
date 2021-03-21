@@ -3,7 +3,7 @@
   height: 50px;
   font-size: 1.25rem;
   font-weight: 700;
-  border: 2px solid hsl(0deg, 0%, 5%);
+  border: 2px solid hsl(0, 0%, 5%);
   background: white;
   outline-offset: 2px;
   border-radius: 1px;
@@ -17,7 +17,7 @@
 }
 
 .toggleButton[aria-pressed='true'] {
-  background: hsl(0deg, 0%, 5%);
+  background: hsl(0, 0%, 5%);
   color: white;
   border-width: 6px;
 }
